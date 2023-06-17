@@ -9,9 +9,13 @@
     <h1>Mango loco</h1>
 
     <?php 
+        // $nome = "Thiago";
+        // echo "Olá $nome";
+        // echo '  Olá $nome';
+
         $nome = "Thiago";
-        echo "Olá $nome";
-        echo 'Olá $nome';
+        $sobrenome = "Rodrigues";
+        echo "$nome $sobrenome \u{1f596}";
 
         
     
