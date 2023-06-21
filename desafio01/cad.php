@@ -14,11 +14,15 @@
     <?php 
     
         $numero = $_GET["numero"];
-        $anterior = numero - 1;
-        $sucessor = numero + 1;
-        echo "<p>O numero sucessor é , $sucessor, e o anterior é, $anterior, obrigado por usar o meu site!</p>"
-    
+        $anterior = $numero - 1;
+        $sucessor = $numero + 1;
+        echo "<p>Você digitou o número $numero \n";
+        echo "<p>O numero antecessor de $numero é: $anterior    </p> \n";
+        echo "<p>O número sucessor é: $sucessor</p> \n";
+        echo "<p>Obrigado por usar o meu site :)</p> \n";
     ?>
+
+    <p><a href="javascript:history.go(-1)">Voltar a página anterior</a></p>
 </main>
 </body>
 </html>
