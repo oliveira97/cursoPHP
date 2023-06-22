@@ -21,7 +21,7 @@
         echo "<p>O número sucessor é: $sucessor</p>";
         echo "<p>Obrigado por usar o meu site :)</p>";
     ?>
-    <p><a href="javascript:history.go(-1)">Voltar a página anterior</a></p>
+    <button onclick="javascript:window.location.href='index.html'">&#x2B05; Voltar</button>
 </main>
 </body>
 </html>
