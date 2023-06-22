@@ -17,11 +17,10 @@
         $anterior = $numero - 1;
         $sucessor = $numero + 1;
         echo "<p>Você digitou o número $numero \n";
-        echo "<p>O numero antecessor de $numero é: $anterior    </p> \n";
-        echo "<p>O número sucessor é: $sucessor</p> \n";
-        echo "<p>Obrigado por usar o meu site :)</p> \n";
+        echo "<p>O numero antecessor de $numero é: $anterior    </p>";
+        echo "<p>O número sucessor é: $sucessor</p>";
+        echo "<p>Obrigado por usar o meu site :)</p>";
     ?>
-
     <p><a href="javascript:history.go(-1)">Voltar a página anterior</a></p>
 </main>
 </body>
