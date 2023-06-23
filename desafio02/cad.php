@@ -10,8 +10,9 @@
     <main>
         <?php
             $numero = mt_rand(1, 100);
-            echo $numero;
+            echo "<p>O número gerado aleatóriamente foi: $numero</p>";
         ?>
+    <button onclick="javascript:document.location.reload()">&#x1F504; Outra vez!</button>    
     <button onclick="javascript:window.location.href='index.html'">&#x2B05; Voltar</button>    
     </main>
 </body>
