@@ -8,6 +8,7 @@
 </head>
 <body>
 <main>
+    <h1>Conversor de moedas</h1>
     <?php
         $valor = $_GET["valor"];
         $cotacao = 4.78;
